@@ -1,0 +1,56 @@
+.tab_class {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tr_class {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header{
+    border: #ccc;
+    background-color: blue;
+    height: 90px;
+    border-radius: 2px;
+}
+
+.header h5{
+    text-align: center;
+}
+
+.sidebar{
+
+    background-color: blue;
+    height: 500px;
+    width: 350px;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.additional-content {
+    flex: 1; 
+    background-color: blue;
+    height: 500px;
+    width: 350px;
+}
+
