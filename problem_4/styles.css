@@ -14,26 +14,26 @@
     text-align: center;
 }
 
-.header{
+.header {
     border: #ccc;
     background-color: blue;
     height: 90px;
     border-radius: 2px;
 }
 
-.header h5{
+.header h5 {
     text-align: center;
 }
 
-.sidebar{
+.sidebar {
 
     background-color: blue;
     height: 500px;
     width: 350px;
-    
+
 }
 
-.footer{
+.footer {
     background-color: black;
     height: 60px;
 }
@@ -43,14 +43,13 @@
 }
 
 .sidebar {
-    flex: 0 0 auto; 
-    margin-right: 10px; 
+    flex: 0 0 auto;
+    margin-right: 10px;
 }
 
 .additional-content {
-    flex: 1; 
+    flex: 1;
     background-color: blue;
     height: 500px;
     width: 350px;
 }
-
